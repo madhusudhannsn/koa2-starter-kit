@@ -1,35 +1,45 @@
 {
-  "name": "AudioStreamer",
+  "name": "koa2-starter-kitt",
   "version": "1.0.0",
-  "description": "Audio Streamer Web Server",
-  "main": "server/server.js",
+  "description": "This is a simple project setup for Koa 2 with node < 7.6. It enables to use async/await support with node < 7.6 with the help of babel.",
+  "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node server/server.js"
+    "dev": "gulp dev",
+    "build": "gulp build",
+    "start": "node app.js"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/noamtcohen/AudioStreamer.git"
+    "url": "git+https://github.com/madhusudhannsn/koa2-starter-kit.git"
   },
-  "author": "noamtcohen",
-  "license": "none",
+  "keywords": [
+    "koa 2",
+    "starter",
+    "starter-kit",
+    "gulp",
+    "babel",
+    "node < 7.6"
+  ],
+  "author": "Madhusudhan (@madhusudhannsn)",
+  "license": "MIT",
   "bugs": {
-    "url": "https://github.com/noamtcohen/AudioStreamer/issues"
+    "url": ""
   },
-  "homepage": "https://github.com/noamtcohen/AudioStreamer",
+  "homepage": "",
   "dependencies": {
-    "@google-cloud/speech": "^0.10.3",
-    "async": "^2.5.0",
-    "aws-sdk": "^2.109.0",
-    "binaryjs": "^0.2.1",
-    "connect": "^3.3.4",
-    "lame": "^1.2.4",
-    "opener": "^1.4.1",
-    "pcm-volume": "^1.0.0",
-    "serve-static": "^1.9.1",
-    "speaker": "^0.4.0",
-    "string-to-stream": "^1.1.0",
-    "uaparser": "0.0.2",
-    "wav": "^0.1.2"
+    "config": "^1.26.1",
+    "gulp-live-server": "0.0.30",
+    "koa": "^2.2.0",
+    "koa-body": "^2.1.0",
+    "koa-router": "^7.2.0"
+  },
+  "devDependencies": {
+    "babel-plugin-transform-async-to-generator": "^6.24.1",
+    "gulp": "^3.9.1",
+    "gulp-shell": "^0.6.3",
+    "gulp-watch": "^4.3.11",
+    "babel-cli": "^6.24.1",
+    "rimraf": "^2.6.1",
+    "run-sequence": "^1.2.2"
   }
 }
