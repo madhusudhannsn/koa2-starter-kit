@@ -1,0 +1,59 @@
+
+.page-header .glyphicon {
+  vertical-align: bottom;
+}
+
+#icon {
+  height: 40px;
+}
+
+.speaker-mic {
+  background-color: #002bff;
+  width: 7em;
+  height: 7em;
+  text-align: center;
+  border-radius: 50%;
+  padding: 20px 0px;
+  margin: 0 auto;
+  cursor: pointer;
+  margin-top: 50px;
+}
+
+.speaker-mic:active {
+  background-color: red;
+}
+
+#start-rec-btn {
+  color: #cfcdec;
+}
+
+.userInput {
+  background-color: #d7d7d8;
+  float : left;
+  font-size: 16px;
+  padding: 3px 15px;
+  display: inline-block;
+  clear: both;
+  border-radius: 50px;
+}
+.sereverOutput {
+  background-color: #4d71f3;
+  float : right;
+  color: white;
+  font-size: 16px;
+  padding: 3px 15px;
+  display: inline-block;
+  clear: both;
+  border-radius: 50px;
+}
+.conversation-exchange {
+  margin: 0 auto;
+  margin-top : 30px;
+}
+.listen-text {
+  text-align: center;
+  margin: 20px 0px;
+  font-size: 20px;
+  color: #2006f3;
+  display: none;
+}

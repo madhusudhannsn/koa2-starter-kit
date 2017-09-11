@@ -1,7 +1,0 @@
-{
-	"site":{
-		"port": 3000,
-		"name": "Hub-Bot",
-		"secret": "botson-backend-is-a-backend-for-bots"
-	}
-}
